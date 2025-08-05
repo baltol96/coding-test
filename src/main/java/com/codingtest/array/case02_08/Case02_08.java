@@ -1,0 +1,34 @@
+package com.codingtest.array.case02_08;
+
+import java.util.*;
+
+public class Case02_08 {
+
+    public static void main(String[] args){
+        Scanner in=new Scanner(System.in);
+        int n = in.nextInt();
+
+        int[] array = new int[n];
+        int[] result = new int[n];
+
+        for(int i=0;i<n;i++) {
+            array[i] = in.nextInt();
+        }
+
+        for(int i=0;i<n;i++) {
+            int cnt = 1;
+            for(int j=0;j<n;j++){
+                if(array[j]>array[i]){
+                    cnt++;
+                }
+            }
+            result[i]=cnt;
+        }
+
+        for(int r : result){
+            System.out.print(r+" ");
+        }
+
+    }
+
+}
