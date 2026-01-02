@@ -2,7 +2,7 @@ package com.codingtest.two_pointers.case03_05;
 
 import java.util.Scanner;
 
-public class Case03_05 {
+public class Case03_05_1 {
 
     public static void main(String[] args){
         Scanner in=new Scanner(System.in);
