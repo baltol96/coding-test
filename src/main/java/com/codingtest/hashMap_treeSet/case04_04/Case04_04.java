@@ -1,4 +1,4 @@
-package com.codingtest.hashMap_treeSet.case04_4;
+package com.codingtest.hashMap_treeSet.case04_04;
 
 import java.util.*;
 
